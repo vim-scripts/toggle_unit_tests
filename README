@@ -1,33 +1,3 @@
-This is a mirror of http://www.vim.org/scripts/script.php?script_id=2500
+This script has been renamed to TUT (toggle_unit_tests).
 
-Usage:
-
-Use this plug-in when you are doing Test-Driven Development [TDD] in any
-language to quickly switch between unit-test and production code. To make this
-really fast bind the Toggle function to a function key in your .vimrc:
-
-    "   [F3]    toggles between (header, ) source and test files.
-    nnoremap    <F3> :<C-U>TUT<CR>
-
-This plug-in assumes source and unit test files are in the same directory, as
-I believe this to be best practice.
-
-Mappings:
-
-<Leader>tut   or   <Plug>ToggleUnitTestsToggle
-    Toggles betwixt source and unit test file
-
-Commands:
-
-:TUT
-	Toggles betwixt source and unit test file
-
-Settings:
-
-By default, unit_test filenames are deemed to begin with 't_'. 
-
-Tell toggle_unit_tests.vim your own prefix by setting the following global
-variable, perhaps in your .vimrc:
-
-    let g:unit_test_prefix='test_'
-
+http://github.com/vim-scripts/TUT-toggle_unit_tests
